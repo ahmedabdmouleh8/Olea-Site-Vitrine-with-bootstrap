@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>bootstrap 5 landing page with slider</title>
+  <!-- boxicons cdn -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+	<!-- font awesome cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<!-- jquery cdn -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body id="my-scrollbar">
+
+			<!-- navigation bar	 -->
+
+      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#" ><img src="/img/logo.png" alt="">Olea Conseils</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuItems" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuItems">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item "><a class="nav-link active" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#campus">Nos valeur</a></li>
+              <li class="nav-item"><a class="nav-link" href="#article">Articles</a></li> 
+              <li class="nav-item"><a class="nav-link" href="#carriere">Contact</a></li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+			<!-- slider banner	 -->
+		<section id="home">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+			    	<div class="info">
+			      		<h1>SLIDE ONE</h1>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			      	</div>
+			    </div>
+          <div class="carousel-item">
+            <div class="info">
+              <h1>SLIDE TWO</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <div class="info">
+              <h1>SLIDE THREE</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="info">
+              <h1>SLIDE FOUR</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="info">
+            <h1>SLIDE Five</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+      </div>
+  
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section> 
+  
+<!-- about -->
+
+  <section class="about" id="about">
+    <h1>About us</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam culpa, vel <br> reprehenderit voluptatum explicabo commodi quaerat aliquid aspernatur architecto </p>
+    
+    <div class="row mt-5">
+        <div class="about-col">
+            <h3>Histoire</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio praesentium culpa delectus consequuntur numquam labore nihil cumque necessitatibus vitae optio.</p>
+        </div>
+        <div class="about-col">
+            <h3>TREZRZ</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, eum expedita suscipit dolor ducimus nesciunt.</p>
+        </div>
+        <div class="about-col">
+            <h3>HGCBEZAET</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam a, voluptatibus nobis, ea vero, pariatur accusamus voluptas dignissimos eveniet numquam quibusdam cum voluptates? Dolore, pariatur.</p>
+        </div>
+    </div>
+    </section>
+
+ <!-- SERVICES -->
+ <section id="services">
+  <div class="container">
+      <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+              <h6 class="text-primary">SERIVCES</h6>
+              <h1>Our Services</h1>
+              <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
+                  in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
+          </div>
+      </div>
+      <div class="row g-4">
+          <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect bounceInUp">
+                  <div class="iconbox">
+                      <i class='bx bxs-check-shield'></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Service</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                      perferendis </p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                  <div class="iconbox">
+                      <i class='bx bxs-comment-detail'></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Service</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                      perferendis </p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                  <div class="iconbox">
+                      <i class='bx bxs-cog'></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Service</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                      perferendis </p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                  <div class="iconbox">
+                      <i class='bx bxs-heart'></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Service</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                      perferendis </p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                  <div class="iconbox">
+                      <i class='bx bxs-rocket'></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Service</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                      perferendis </p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                  <div class="iconbox">
+                      <i class='bx bxs-doughnut-chart'></i>
+                  </div>
+                  <h5 class="mt-4 mb-2">Service</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                      perferendis </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- SERVICES -->
+
+
+    <!----- Valeurs ----->
+    
+    <section class="facilities" id="article">
+        <h1>Nos Valeurs</h1>
+        <p>WHY TO CHOOES US </p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/photo3.jpg" alt="">
+            <h3>EZzaezaeaeaeaea</h3>
+            <p>ghgfhgfhfghfhgfhgfhgfhgfh</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/photo5.jpg" alt="">
+            <h3>EZzaezaeaeaeaea</h3>
+            <p>ghgfhgfhfghfhgfhgfhgfhgfh</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/photo4.jpg" alt="">
+            <h3>EZzaezaeaeaeaea</h3>
+            <p>ghgfhgfhfghfhgfhgfhgfhgfh</p>
+        </div>
+    </div>
+    
+    </section>
+    
+    <!------ carriere --->
+    
+    <section class="testimonials" id="carriere">
+        <h1>Articles de presse
+        </h1>
+        <p>sqdsqdsqdsqsq  ffdghdfhdf df fdgdfgf dhfddfg  </p>
+        
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="/img/photo3.jpg" alt="">
+            <div>
+                <p>sqdsqdq qsdsqdqd qsdsqdsq qsd sqds qd sq q</p>
+                <h3>Christime qdfqsd</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="/img/photo4.jpg" alt="">
+            <div>
+                <p>sqdsqdq qsdsqdqd qsdsqdsq qsd sqds qd sq q</p>
+                <h3>Christime qdfqsd</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+   <!-- CONTACT -->
+   <section id="contact">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-8 mx-auto text-center">
+                <h6 class="text-primary">CONTACT</h6>
+                <h1>Get In Touch</h1>
+                <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga
+                    in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
+            </div>
+        </div>
+
+        <form action="" class="row g-3 justify-content-center">
+            <div class="col-md-5">
+                <input type="text" class="form-control" placeholder="Full Name">
+            </div>
+            <div class="col-md-5">
+                <input type="email" class="form-control" placeholder="Enter E-mail">
+            </div>
+            <div class="col-md-10">
+                <input type="text" class="form-control" placeholder="Enter Subject">
+            </div>
+            <div class="col-md-10">
+                <textarea name="" id="" cols="30" rows="5" class="form-control"
+                    placeholder="Enter Message"></textarea>
+            </div>
+            <div class="col-md-10 d-grid">
+                <button class="btn">Contact</button>
+            </div>
+        </form>
+
+    </div>
+</section>
+<!-- End CONTACT -->
+
+<footer>
+  <div class="footer-top">
+      <div class="container">
+          <div class="row gy-4">
+              <div class="col-lg-2">
+                  <a href=""><img class="logo" src="img/logo.png" alt=""></a>
+              </div>
+              <div class="col-lg-2">
+                  <h5 class="text-dark">Olea</h5>
+                  <ul class="list-unstyled text-secondary">
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Nos Service</a></li>
+                      <li><a href="#">Nos valeurs</a></li>
+                      <li><a href="#">Articles</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-4">
+                <h5 class="text-dark">Contact</h5>
+                <ul class="list-unstyled text-secondary">
+                    <li>Address: Sfax Route Sokra <br> KM 1.5 , 3011</li>
+                    <li>Email: Oleaconseils@gmail.com</li>
+                    <li>Phone: (+216) 58 428 011 </li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                  <h5 class="text-dark">Adresse</h5>
+                  <ul class="list-unstyled">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d579.5104019988984!2d10.734124707714825!3d34.729856957570966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13002d0abd71703d%3A0x8df3588d5ceaf805!2sBourgeoise!5e0!3m2!1sfr!2stn!4v1659665082220!5m2!1sfr!2stn" 
+                    width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom py-3">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <p class="mb-0">© 2022 copyright all right reserved | Designed with <i
+                      class="bx bx-heart text-danger"></i> by <a
+                          href="https://www.linkedin.com/in/ahmedabdmouleh/"
+                          class="text-white">Ahmed Abdmouleh</a></p>
+              </div>
+              <div class="col-md-6">
+                  <div class="social-icons">
+                      <a href="#"><i class='bx bxl-facebook-circle' ></i>
+                      <a href="#"><i class='bx bxl-twitter'></i></a>
+                      <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="js/smooth-scrollbar.js"></script>
+
+<script>
+  var Scrollbar = window.Scrollbar;
+  Scrollbar.init(document.querySelector('#my-scrollbar'),options);
+</script>
+  <script type="text/javascript">
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add('bg-dark', 'shadow');
+      } else {
+        nav.classList.remove('bg-dark', 'shadow');
+      }
+    });
+    
+
+    /* Get the container element
+var btnContainer = document.getElementById("menuItems");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("nav-item");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}*/
+
+// Get all sections that have an ID defined
+const sections = document.querySelectorAll("section[id]");
+
+// Add an event listener listening for scroll
+window.addEventListener("scroll", navHighlighter);
+
+function navHighlighter() {
+  
+  // Get current scroll position
+  let scrollY = window.pageYOffset;
+  
+  // Now we loop through sections to get height, top and ID values for each
+  sections.forEach(current => {
+    const sectionHeight = current.offsetHeight;
+  
+    // Original:
+    // const sectionTop = current.offsetTop - 50;
+    //  
+    // Alex Turnwall's update:
+    // Updated original line (above) to use getBoundingClientRect instead of offsetTop, based on:
+    // https://plainjs.com/javascript/styles/get-the-position-of-an-element-relative-to-the-document-24/
+    // https://newbedev.com/difference-between-getboundingclientrect-top-and-offsettop
+    // This allows the use of sections inside a relative parent, which I'm not using here, but needed for a project
+    //
+    const sectionTop = (current.getBoundingClientRect().top + window.pageYOffset) - 50;
+    sectionId = current.getAttribute("id");
+    
+    /*
+    - If our current scroll position enters the space where current section on screen is, add .active class to corresponding navigation link, else remove it
+    - To know which link needs an active class, we use sectionId variable we are getting while looping through sections as an selector
+    */
+    if (
+      scrollY > sectionTop &&
+      scrollY <= sectionTop + sectionHeight
+    ){
+      document.querySelector(".nav-item  a[href*=" + sectionId + "]").classList.add("active");
+    } else {
+      document.querySelector(".nav-item  a[href*=" + sectionId + "]").classList.remove("active");
+    }
+  });
+}
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".sticky-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+</script>
+
+
+	<!-- scripts -->
+	<!-- bootstrap javascript cdn -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>
